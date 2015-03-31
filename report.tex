@@ -1,0 +1,80 @@
+\documentclass[hyp,12pt]{socreport}
+
+% Some generic packets.
+\usepackage{color, colortbl}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{pgfplots}
+\usepackage{tabularx}
+\usepackage{multirow}
+\pgfplotsset{width=10cm,compat=1.9}
+
+% Sets the root path to look for all images.
+\graphicspath{{images/}}
+
+\begin{document}
+\pagenumbering{roman}
+
+% Replace as necessary
+\title{An Example HYP Final Report}
+\author{Harold Finch}
+\projyear{2015}
+\projnumber{123-45-6789}
+\advisor{Dr. Samaritan}
+\deliverables{
+    \item Report: 1 Volume
+}
+\maketitle
+
+% Replace as necessary
+\begin{abstract}
+This report demonstrates the format of the SOC HYP final report and acts as boilerplate.
+
+\begin{descriptors}
+\item Networks
+    \begin{itemize}
+    \item[] Network protocols
+        \begin{itemize}
+        \item[] Application layer protocols
+            \begin{itemize}
+            \item[] Peer-to-peer protocols
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \item[] Network services
+        \begin{itemize}
+        \item[] Programmable networks
+        \end{itemize}
+\end{descriptors}
+\begin{keywords}
+    Keyword 1, Keyword 2, Keyword 3
+\end{keywords}
+
+% Replace/Delete as necessary
+\begin{implement}
+    LaTeX, Mac OSX 10.10.2
+\end{implement}
+
+
+\end{abstract}
+
+% Replace as necessary
+\begin{acknowledgement}
+See \texttt{README.md} of this repository.
+\end{acknowledgement}
+
+\listoffigures % Remove if no figures
+\listoftables % Remove if no tables
+\tableofcontents
+
+% Actual contents in the contents folder.
+% Include additional tex files here.
+\include{contents/intro}
+\include{contents/results}
+\include{contents/conclusion}
+
+\bibliographystyle{socreport}
+\bibliography{report}
+\end{document}
