@@ -12,7 +12,7 @@ You need to install __LaTeX__ in order to build the final report.
 This document should explain how to do it for you particular machine: [http://latex-project.org/ftp.html](http://latex-project.org/ftp.html)
 
 ## Usage
-0. Install LaTex.
+0. Install LaTeX.
 0. Fork this repository.
 0. Edit content.
 0. Build report.
@@ -37,11 +37,8 @@ This project is structured as follows:
 |-- Makefile
 |-- README.md
 |-- contents
-|   |-- conclusion.aux
 |   |-- conclusion.tex
-|   |-- intro.aux
 |   |-- intro.tex
-|   |-- results.aux
 |   `-- results.tex
 |-- images
 |   |-- giraffe.jpg
