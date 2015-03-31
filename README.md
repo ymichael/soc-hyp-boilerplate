@@ -1,5 +1,7 @@
 # SOC HYP Final Report Boilerplate
 
+__See an example report [here](https://dl.dropboxusercontent.com/u/24733998/report.pdf).__
+
 This repository is meant as a quickstart guide for NUS SOC students doing their Honors Year Project (HYP, _aka FYP_) final report in LaTeX.
 
 It handles all the necessary styling and formatting of the final report so you can focus on your content.
