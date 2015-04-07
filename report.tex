@@ -9,10 +9,18 @@
 \usepackage{pgfplots}
 \usepackage{tabularx}
 \usepackage{multirow}
+\usepackage{listings}
 \pgfplotsset{width=10cm,compat=1.9}
 
 % Sets the root path to look for all images.
 \graphicspath{{images/}}
+
+% Sets default options for listings.
+\renewcommand\lstlistlistingname{List of Listings}
+\newcommand*\lstinputpath[1]{\lstset{inputpath=#1}}
+\lstinputpath{listings}
+\lstset{frame=single, tabsize=2, captionpos=b}
+
 
 \begin{document}
 \pagenumbering{roman}
@@ -67,6 +75,7 @@ See \texttt{README.md} of this repository.
 
 \listoffigures % Remove if no figures
 \listoftables % Remove if no tables
+\lstlistoflistings % Remove if no listings
 \tableofcontents
 
 % Actual contents in the contents folder.
