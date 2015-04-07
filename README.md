@@ -108,6 +108,9 @@ ShareLaTeX has a good intro guide here: [https://www.sharelatex.com/learn/Mathem
 
 For simple inlined symbols, wrap then in `$`: eg. $x^2$
 
+### Code
+An example code listing is included in the introduction. See: [https://www.sharelatex.com/learn/Code_listing](https://www.sharelatex.com/learn/Code_listing).
+
 ### Tables and Figures
 A intro guide for tables is: [https://www.sharelatex.com/learn/Tables](https://www.sharelatex.com/learn/Tables) and for graphs is [https://www.sharelatex.com/learn/Pgfplots_package](https://www.sharelatex.com/learn/Pgfplots_package).
 
